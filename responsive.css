@@ -1,0 +1,25 @@
+@media screen and (min-width:300px) and (max-width:576px){
+    nav{
+       display: flex;
+       padding-top: 10px;
+    }
+    .nav-logo-img img{
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        top: 10px;
+    }
+    .nav-items ul{
+        display: block;
+        position: sticky;
+        top: 0px;
+        left: ;
+        height: 90vh;
+        text-align: center;
+    }
+    .nav-items ul li{
+        margin: 55px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
