@@ -130,6 +130,70 @@
     .about-img img{
         width: 100%;
     }
+    /* team section responsive code start */
+    .team-sec{
+        width: 100%;
+    }
+    .team-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .team-parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: 0 auto;
+        gap: 0;
+    }
+    .team-img img{
+        width: 140px;
+        height: 170px;
+    }
+    .team-items{
+        background-color: #fff;
+        width: 200px;
+        height: 230px;
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+    /* handmade section code start */
+.handmade-sec{
+    width: 100%;
+}
+.handmade-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    gap: 20px;
+}
+.handmade-items{
+    width: 100%;
+}
+.ice-price{
+    display: flex;
+    justify-content: space-between;
+}
+.handmade-img img{
+    width: 100%;
+    height: 100%;
+}
+/* video section code start */
+.video-sec{
+    width: 100%;
+ }
+ .video-items{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15% 0;
+}
+.video-items h2{
+    font-size: 30px;
+}
+.video-items p{
+    font-size: 15px;
+}
 }
 @media screen and (min-width:576px) and (max-width:768px){
     header{
@@ -231,6 +295,70 @@
     .about-img img{
         width: 100%;
     }
+    /* team section responsive code start */
+    .team-sec{
+        width: 100%;
+    }
+    .team-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .team-parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        margin: 0 auto;
+        gap: 40px;
+    }
+    .team-img img{
+        width: 140px;
+        height: 170px;
+    }
+    .team-items{
+        background-color: #fff;
+        width: 200px;
+        height: 230px;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+     /* handmade section code start */
+.handmade-sec{
+    width: 100%;
+}
+.handmade-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    gap: 20px;
+}
+.handmade-items{
+    width: 100%;
+}
+.ice-price{
+    display: flex;
+    justify-content: space-between;
+}
+.handmade-img img{
+    width: 100%;
+    height: 100%;
+}
+/* video section code start */
+.video-sec{
+    width: 100%;
+ }
+ .video-items{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15% 0;
+}
+.video-items h2{
+    font-size: 35px;
+}
+.video-items p{
+    font-size: 18px;
+}
 }
 @media screen and (min-width:769px) and (max-width:992px){
     header{
@@ -373,7 +501,83 @@
         font-size: 14px;
         margin: 5px 5px 4px 0;
     }
-  
+
+     /* team section responsive code start */
+     .team-sec{
+        width: 100%;
+    }
+    .team-title{
+        width: 510px;
+        margin: 0 auto;
+    }
+    .team-parent{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        margin: 0 auto;
+        gap: 60px;
+    }
+    .team-img img{
+        width: 140px;
+        height: 170px;
+    }
+    .team-items{
+        background-color: #fff;
+        width: 190px;
+        height: 210px;
+        padding: 20px;
+    }
+     /* handmade section code start */
+.handmade-sec{
+    width: 100%;
+}
+.handmade-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    gap: 20px;
+}
+.handmade-items{
+    width: 345px;
+}
+.handmade-items h2{
+    padding: 0;
+    font-size: 22px;
+}
+.ice-price{
+    display: flex;
+    justify-content: space-between;
+}
+.ice-price h2{
+    font-size: 22px;
+}
+.handmade-items p{
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-bottom: 1px dashed rgb(66, 66, 66);
+    color: rgb(63, 62, 62);
+}
+.handmade-img img{
+    width: 355px;
+    height: 255px;
+}
+ /* video section code start */
+.video-sec{
+    width: 100%;
+ }
+ .video-items{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+.video-items h2{
+    font-size: 35px;
+}
+.video-items p{
+    font-size: 18px;
+} 
 }
 @media screen and (min-width:993px) and (max-width:1200px){
     header{
@@ -501,11 +705,10 @@
         padding: 5px 0 15px 0;
     }
     .about-text p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .about-text h5{
-        font-family: italic;
-        font-size: 14px;
+        font-size: 12px;
     }
     .about-img img{
         width: 550px;
@@ -514,8 +717,86 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .about-icon h4{
+        font-size: 11px;
+    }
     .about-icon i{
         font-size: 22px;
         margin: 5px 5px 4px 0;
     }
+      /* team section responsive code start */
+    .team-sec{
+        width: 100%;
+    }
+    .team-title{
+        width: 510px;
+        margin: 0 auto;
+    }
+    .team-parent{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        gap: 50px;
+    }
+    .team-img img{
+        width: 120px;
+        height: 150px;
+    }
+    .team-items{
+        width: 180px;
+        height: 210px;
+        padding: 30px;
+    }
+    .team-text i{
+        font-size: 20px;
+    }
+      /* handmade section code start */
+.handmade-sec{
+    width: 100%;
+}
+.handmade-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    gap: 10px;
+}
+.handmade-items{
+    width: 430px;
+}
+.handmade-items h2{
+    padding: 0;
+    font-size: 26px;
+}
+.ice-price{
+    display: flex;
+    justify-content: space-between;
+}
+.ice-price h2{
+    font-size: 28px;
+}
+.handmade-items p{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.handmade-img img{
+    width: 455px;
+    height: 355px;
+}
+ /* video section code start */
+ .video-sec{
+    width: 100%;
+ }
+ .video-items{
+    width: 80%;
+    margin: 0 auto;
+}
+.video-items h2{
+    font-size: 35px;
+}
+.video-items p{
+    font-size: 18px;
+} 
 }
